@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,25 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+ 
+}
+.bhau {
+  height: 35px;
+  width: 80px;
+  padding: 5px 6px;
+  border-radius: 4px;
+  background: #4744f0;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.bhau:hover {
+  cursor: pointer;
+  background: #3736e0;
+  transform: scale(1.05);
 }
